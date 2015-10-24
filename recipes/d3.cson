@@ -1,0 +1,7 @@
+steps: [
+  type: "archive"
+  url: "https://github.com/mbostock/d3/releases/download/v3.5.6/d3.zip"
+  files: [
+    {src: ["d3.min.js"], dest: "vendor/js/d3-3.5.6.min.js"}
+  ]
+]
